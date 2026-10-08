@@ -1,0 +1,5 @@
+[build.environment]
+  # EMAIL_USER is the Gmail address used as the contact form sender. The same
+  # address is intentionally shown publicly in the site footer, so it is not a
+  # secret. EMAIL_PASS and GEMINI_API_KEY are still scanned.
+  SECRETS_SCAN_OMIT_KEYS = "EMAIL_USER"
